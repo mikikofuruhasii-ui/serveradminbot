@@ -17,7 +17,7 @@ START_CMD = "start.cmd"                  # 起動バッチファイル名
 server_process = None
 
 intents = discord.Intents.default()
-bot = commands.Bot(command_prefix="!", intents=intents)
+bot = commands.Bot(command_prefix="/", intents=intents)
 
 # UI Embed作成関数
 def create_control_embed(status_text="❓ 未確認"):
